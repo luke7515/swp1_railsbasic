@@ -10,5 +10,10 @@
   <%= @contact.phone_number %>
 </p>
 
+<p>
+  <strong>Memo:</strong>
+  <%= @contact.memo %>
+</p>
+
 <%= link_to 'Edit', edit_contact_path(@contact) %> |
 <%= link_to 'Back', contacts_path %>

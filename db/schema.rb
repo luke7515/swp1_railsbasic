@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20150930103717) do
   create_table "contacts", force: :cascade do |t|
     t.string   "name"
     t.string   "phone_number"
+    t.text     "memo"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
   end
